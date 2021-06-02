@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 ## Table of Contents
 
 - [Background / Overview](#background--overview)
@@ -162,4 +164,8 @@ Like what you see? Keep me awake at night by buying me a coffee or two.
 Boilerplate for README from Yilber Mejia
 Copyright (c) 2019 Yilber Mejia.
 
-Usage is provided under the MIT License. See [LICENSE](https://github.com/username/projectname/blob/branch/LICENSE) for the full details.
+# Usage is provided under the MIT License. See [LICENSE](https://github.com/username/projectname/blob/branch/LICENSE) for the full details.
+
+readme placeholder
+
+> > > > > > > 4435a066d9d3537f346f232b1ee5d82697efc44a
