@@ -1,0 +1,44 @@
+// LOEWS
+
+.loewsBG-blue {
+  background: #afddd0;
+}
+
+.loewsBG-navy {
+  background: #00184a;
+}
+
+.loews-gradient {
+  background: rgb(192, 232, 239);
+  background: linear-gradient(
+    90deg,
+    rgba(192, 232, 239, 1) 0%,
+    rgba(69, 200, 163, 1) 100%
+  );
+}
+
+.grey-outline {
+  border: rgb(209, 209, 209) 2px solid;
+}
+
+.loews-blue {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    color: #afddd0;
+  }
+}
+
+.loews-navy {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    color: #00184a;
+  }
+}

@@ -1,0 +1,76 @@
+// Mukja
+
+.mukjaBG-blue {
+  background: #154163;
+}
+
+.mukjaBG-red {
+  background: #ff5553;
+}
+
+.mukjaBG-yellow {
+  background: #ffcd55;
+}
+
+.mukjaBG-black {
+  background: #000000;
+}
+
+.pats-blue {
+  background: #0f64b4;
+}
+
+.pats-white {
+  background: #ffffff;
+}
+
+.mukja-blue {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    color: #154163;
+  }
+}
+
+.mukja-red {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    color: #ff5553;
+  }
+}
+
+.mukja-yellow {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  p {
+    color: #ffcd55;
+  }
+}
+
+.mukja-font {
+  h1 {
+    color: #ff5553;
+  }
+  h2 {
+    color: #154163;
+  }
+  h3 {
+    color: #ffcd55;
+  }
+  h4,
+  h5,
+  p {
+    color: grey;
+  }
+}
