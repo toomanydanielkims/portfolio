@@ -4,6 +4,7 @@
 @import "mukja";
 @import "color";
 @import url("https://css.gg/css?=|arrow-long-down");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap");
 
 * {
   margin: 0;
@@ -53,6 +54,7 @@ $border: black 1px solid;
 body {
   background: white;
   font-family: "Inter", sans-serif;
+  // font-family: "Source Sans Pro", sans-serif;
   overflow-x: hidden;
   position: relative;
 
@@ -100,11 +102,11 @@ body {
     color: black;
   }
   p {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 300;
     text-align: left;
     margin: 0.5rem 0;
-    line-height: 1.4;
+    line-height: 1.6;
     color: black;
   }
   h6 {
@@ -355,6 +357,25 @@ main {
   margin-top: 4rem;
 }
 
+.home-project {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background: white;
+  // border: pink solid 2px;
+  min-height: 60vh;
+  margin: auto;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+
+.gradient-bg {
+  background: linear-gradient(#ffffff, #ffffff);
+}
+
 .home-links {
   h3,
   h2,
@@ -381,7 +402,8 @@ main {
 }
 
 .home-title {
-  width: 30%;
+  width: 20%;
+
   h2 {
     text-align: center;
   }
@@ -402,7 +424,7 @@ main {
   h2 {
     text-align: center;
   }
-  border: #afddd0 solid 3px;
+  // border: #afddd0 solid 3px;
 }
 
 .home-item {
@@ -769,6 +791,14 @@ body.hide {
   width: 50%;
 }
 
+.center {
+  text-align: center;
+  justify-content: center;
+  p {
+    text-align: center;
+  }
+}
+
 /* SCRIPT */
 
 .fadeOut {
@@ -913,15 +943,12 @@ body.hide {
   }
 
   .home-project {
-    // min-height: 60vh;
-    // display: flex;
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     width: 95%;
     margin: auto;
-    color: white;
-    // border: pink solid 2px;
+    background: yellow;
     border-radius: 1rem;
     margin-top: 1rem;
     flex-wrap: wrap;
@@ -930,6 +957,7 @@ body.hide {
 
   .home-title {
     width: 90%;
+    color: yellow;
     h2 {
       text-align: center;
     }
@@ -945,6 +973,7 @@ body.hide {
     // border: #afddd0 solid 3px;
     width: 90%;
     height: 50vh;
+    color: yellow;
     img {
       width: 100%;
       height: 100%;
