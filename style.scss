@@ -877,6 +877,14 @@ body.hide {
   opacity: 0;
 }
 
+.extra-margin1 {
+  margin: 1rem;
+}
+
+.extra-margin4 {
+  margin-top: 10rem;
+}
+
 @media screen and (max-width: 1500px) {
   .hero-img {
     height: 50vh;
@@ -1133,5 +1141,13 @@ body.hide {
 
   .flex-reverse {
     flex-direction: column;
+  }
+
+  .extra-margin1 {
+    margin: 1rem;
+  }
+
+  .extra-margin4 {
+    margin-top: 8rem;
   }
 }
