@@ -53,10 +53,12 @@ $border: black 1px solid;
 
 body {
   background: white;
-  font-family: "Inter", sans-serif;
   // font-family: "Source Sans Pro", sans-serif;
   overflow-x: hidden;
   position: relative;
+  font-family: Inter, sans-serif;
+  letter-spacing: normal;
+  font-style: normal;
 
   img {
     color: black;
@@ -74,46 +76,51 @@ body {
     margin: 0.5rem 0;
   }
   h2 {
-    font-weight: 600;
-    font-size: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
     text-align: left;
-    margin: 0.75rem 0;
+    margin: 1rem 0;
     color: black;
   }
   h3 {
-    font-weight: 600;
-    font-size: 2.5rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
     text-align: left;
-    margin: 0.75rem 0;
+    margin: 1rem 0;
     color: black;
   }
   h4 {
-    font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.5rem;
     text-align: left;
     margin: 0.5rem 0;
     color: black;
   }
   h5 {
-    font-weight: 600;
-    font-size: 0.85rem;
+    font-size: 1.131rem;
+    font-weight: 400;
+    line-height: 1.875rem;
     text-align: left;
     margin: 0.5rem 0;
     color: black;
   }
   p {
-    font-size: 0.9rem;
-    font-weight: 300;
+    font-size: 1.131rem;
+    font-weight: 400;
+    line-height: 1.875rem;
     text-align: left;
     margin: 0.5rem 0;
-    line-height: 1.6;
     color: black;
   }
   h6 {
-    font-size: 1rem;
-    font-weight: 300;
+    font-size: 0.85rem;
+    font-weight: 400;
+    line-height: 1.875rem;
     text-align: left;
-    color: rgb(163, 163, 163);
+    color: #999999;
     margin: 0.5rem 0;
   }
 }
@@ -379,12 +386,12 @@ main {
     100% 0,
     0,
     from(transparent),
-    to(#acacac)
+    to(#999999)
   );
-  background-image: linear-gradient(90deg, transparent, #acacac);
+  background-image: linear-gradient(90deg, transparent, #999999);
 }
 .divider span:nth-child(2) {
-  color: #acacac;
+  color: #999999;
   padding: 0px 0px;
   width: auto;
   white-space: nowrap;
@@ -395,10 +402,10 @@ main {
     linear,
     0 0,
     0 100%,
-    from(#acacac),
+    from(#999999),
     to(transparent)
   );
-  background-image: linear-gradient(90deg, #acacac, transparent);
+  background-image: linear-gradient(90deg, #999999, transparent);
 }
 
 .home-project {
@@ -471,16 +478,12 @@ main {
       width: 80%;
       // border: 1px black solid;
       h1 {
-        margin-bottom: 0.25rem;
         color: black;
       }
       h2 {
-        margin-bottom: 0.25rem;
         //   color: #afddd0;
       }
       h3 {
-        line-height: 1.3;
-        font-size: 1.5rem;
         color: #e0a929;
         // &:hover {
         //   line-height: 2;
@@ -488,27 +491,21 @@ main {
         // }
       }
       h4 {
-        font-size: 0.85rem;
-        font-weight: 600;
         color: black;
-        line-height: 2;
+
         //   border: 1px black solid;
       }
       h5 {
-        font-size: 0.65rem;
         color: #e0a929;
-        line-height: 2;
-        margin-top: 0.24rem;
-        letter-spacing: 0.09rem;
+        font-weight: 500;
+        font-size: 0.85rem;
+        letter-spacing: 0.1rem;
       }
       h6 {
-        font-size: 0.85rem;
         color: black;
-        line-height: 2;
         //   border: 1px black solid;
       }
       p {
-        margin-bottom: 0.25rem;
       }
       .line {
         width: 6rem;
@@ -967,14 +964,6 @@ body.hide {
   }
 }
 
-@media screen and (max-width: 1024px) {
-  // .nav-header {
-  //   padding: 0 2rem;
-  //   background-color: white;
-  //   z-index: 50;
-  // }
-}
-
 @media only screen and (max-width: 1024px) {
   body {
     h1 {
@@ -982,24 +971,28 @@ body.hide {
       font-size: 4rem;
       text-align: left;
       margin: 0.5rem 0;
+      line-height: 1.75rem;
     }
     h2 {
       font-size: 1.75rem;
       text-align: left;
       margin: 0.5rem 0;
       color: black;
+      line-height: 1.75rem;
     }
     h3 {
       font-size: 1.5rem;
       text-align: left;
       margin: 0.5rem 0;
       color: black;
+      line-height: 1.75rem;
     }
     h4 {
       font-size: 1rem;
       text-align: left;
       margin: 0.5rem 0;
       color: black;
+      line-height: 1.25rem;
     }
     h5 {
       font-size: 0.85rem;
@@ -1017,7 +1010,7 @@ body.hide {
     h6 {
       font-size: 0.75rem;
       text-align: left;
-      color: rgb(163, 163, 163);
+      color: #999999;
       margin: 0.5rem 0;
     }
   }

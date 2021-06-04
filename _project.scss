@@ -129,6 +129,7 @@
   justify-content: space-around;
   align-items: center;
   width: 80%;
+  // margin-bottom: 4rem;
   // border: pink solid 2px;
 }
 
@@ -150,8 +151,9 @@
   justify-content: space-between;
   align-items: flex-start;
   width: 80%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   p {
-    font-size: 0.85rem;
   }
   h2 {
     margin-top: 0.5rem;
@@ -167,13 +169,11 @@
     margin-bottom: 2rem;
   }
   h6 {
-    font-weight: 600;
-    font-size: 0.9rem;
   }
   .line {
     width: 2rem;
     height: 0.1rem;
-    background: #a1a1a1;
+    background: #999999;
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
@@ -373,7 +373,7 @@
 }
 
 .flexHalf-item {
-  width: 32vw;
+  width: 25vw;
   height: 100%;
   img {
     width: 100%;
@@ -392,7 +392,7 @@
   text-decoration: none;
   align-self: flex-start;
   &:hover {
-    background: #acacac;
+    background: #999999;
     color: white;
     transition: ease-in-out 1s all;
   }
@@ -444,24 +444,22 @@
       //   color: #afddd0;
     }
     h3 {
-      line-height: 1.3;
     }
     h4 {
     }
     h5 {
-      font-size: 0.55rem;
       color: #ffcd55;
-      line-height: 2;
-      margin-top: 0.75rem;
+
+      margin-top: 0.5rem;
     }
     h6 {
-      font-size: 0.85rem;
       color: black;
-      line-height: 1.6;
+      line-height: 1.6rem;
+
       //   border: 1px black solid;
     }
     p {
-      margin-bottom: 1rem;
+      margin-bottom: 0.5rem;
     }
     .line {
       width: 2rem;
@@ -585,15 +583,12 @@
     h3 {
       line-height: 1.6;
     }
-    h4 {
-      // font-size: 0.85rem;
-      // font-weight: 600;
-      // color: black;
-      // line-height: 2;
-      //   border: 1px black solid;
+    h5 {
+      font-weight: 700;
+      font-size: 0.85rem;
     }
     h6 {
-      font-size: 0.85rem;
+      font-size: 0.75rem;
       color: black;
       line-height: 2;
       //   border: 1px black solid;
@@ -927,7 +922,7 @@
       margin-top: 2rem;
     }
     p {
-      margin-bottom: 1rem;
+      margin-bottom: 2rem;
     }
     .line {
       width: 7rem;
@@ -987,10 +982,6 @@
     margin-top: 0.5rem;
   }
   p {
-    font-family: "Inter", sans-serif;
-    font-size: 1.1rem;
-    font-weight: 300;
-    color: grey;
   }
 }
 

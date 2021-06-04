@@ -67,6 +67,7 @@
     }
     h4 {
       font-size: 1.5rem;
+      line-height: 1.75rem;
       margin-top: 2rem;
       margin-bottom: 2rem;
     }
@@ -387,7 +388,7 @@
     text-decoration: none;
     align-self: flex-start;
     &:hover {
-      background: #acacac;
+      background: #999999;
       color: white;
       transition: ease-in-out 1s all;
     }
@@ -400,12 +401,17 @@
       width: 100%;
       h4 {
         width: 100%;
-        font-size: 1.25rem;
+
+        line-height: 1.25rem;
       }
       p {
-        margin-bottom: 1rem;
+        margin-bottom: 2rem;
       }
       .line {
+        width: 4rem;
+        height: 0.15rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
       }
     }
   }
